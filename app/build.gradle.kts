@@ -22,7 +22,7 @@ android {
     // Use create() in signing Configs
     signingConfigs {
         create("zeta") {
-            storeFile = file("C:\\android\\MonarchKeyStore.jks")
+            storeFile = file("C:\\android\\MonarchKeyStore.jks").toURI()
             storePassword = "123456"
             keyAlias = "zeta"
             keyPassword = "123456"
