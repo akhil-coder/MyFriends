@@ -23,7 +23,7 @@ android {
     signingConfigs {
         create("zeta") {
             storeFile = file("C:\\android\\MonarchKeyStore.jks")
-            storePassword = System.getenv("KEYSTORE_PASS")
+            storePassword = "123456"
             keyAlias = "zeta"
             keyPassword = "123456"
         }
