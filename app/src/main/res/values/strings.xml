@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MyFriends</string>
+    <string name="email">email</string>
+    <string name="password">password\n</string>
+    <string name="signUp">SignUp</string>
+    <string name="timeline">timeline</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="toggle_visibility">Toggle Visibility</string>
 </resources>
